@@ -1,3 +1,5 @@
+import GlanceItem from "./GlanceItem";
+
 export default function Home() {
     return (
         <main>
@@ -14,23 +16,17 @@ export default function Home() {
             </div>
 
             <div className="container-fluid">
+                <h1>At a Glance</h1>
                 <div className="row">
-                    <h1>At a Glance</h1>
-                    <div className="col">
-                        <h2>Inventory Buy/Sell Web App</h2>
-                        <p>Record, Edit, and Track your Transactions in a Neat Spreadsheet.</p>
-                        <a href="#work" className="btn btn-primary">See More</a>
-                    </div>
-                    <div className="col">
-                        <h2>Latex Viewer Obsidian Plugin</h2>
-                        <p>View Rendered LaTeX as you write in Obsidian.</p>
-                        <a href="#work" className="btn btn-primary">See More</a>
-                    </div>
-                    <div className="col">
-                        <h2>Game Projects</h2>
-                        <p>A Catalog of all my Released Games developed in Godot.</p>
-                        <a href="#work" className="btn btn-primary">See More</a>
-                    </div>
+                    <GlanceItem 
+                        title="Inventory Buy/Sell Web App"
+                        quip="Record, Edit, and Track your Transactions in a Neat Spreadsheet." />
+                    <GlanceItem
+                        title="Latex Viewer Obsidian Plugin"
+                        quip="View Rendered LaTeX as you type in Obsidian" />
+                    <GlanceItem
+                        title="Game Projects"
+                        quip="A Catalog of all my Released Games developed in Godot" />
                 </div>
 
                 <h1 id="work">All My Work</h1>
