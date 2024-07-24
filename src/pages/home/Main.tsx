@@ -1,18 +1,11 @@
+import AboutMe from "./AboutMe";
 import GlanceItem from "./GlanceItem";
 
 export default function Home() {
     return (
         <main>
-            <div style={{backgroundColor: "red"}}>
-                <div className="container">
-                    <h1>Welcome</h1>
-                    <p>I'm Nathaniel Escaro</p>
-                    <p>
-                        An aspiring software developer passionate about 
-                        developing applications for use and enjoyment.
-                    </p>
-                    <a href="/about">More About Me</a>
-                </div>
+            <div className="bg-body-secondary">
+                <AboutMe/>
             </div>
 
             <div className="container-fluid">
