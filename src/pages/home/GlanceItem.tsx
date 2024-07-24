@@ -10,9 +10,11 @@ export default function GlanceItem({
 }: Options) {
     return (
         <div className="col">
-            <h2>{ title }</h2>
-            <p>{ quip }</p>
-            <a href={link} className="btn btn-primary" onClick={ onSeeMore }>See More</a>
+            <h2 className="text-center">{ title }</h2>
+            <div className="d-flex flex-column justify-content-center">
+                <p className="text-center">{ quip }</p>
+                <a href={link} className="btn btn-primary" onClick={ onSeeMore }>See More</a>
+            </div>
         </div>
     );
 }
