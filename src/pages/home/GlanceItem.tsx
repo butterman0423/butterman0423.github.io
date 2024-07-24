@@ -10,7 +10,7 @@ export default function GlanceItem({
 }: Options) {
     return (
         <div className="col">
-            <div className="bg-secondary h-100">
+            <div className="bg-secondary h-100 pt-5">
                 <h2 className="text-center">{ title }</h2>
                 <div className="d-flex flex-column justify-content-center">
                     <p className="text-center">{ quip }</p>
