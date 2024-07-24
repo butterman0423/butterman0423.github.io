@@ -4,14 +4,16 @@
         "month": "Jul",
         "year": "24",
         "quip": "Record and manage transactions in this Spreadsheet",
-        "icon": ""
+        "icon": "",
+        "link": "https://github.com/butterman0423/catalog-webapp"
     },
     {
         "title": "LaTeX Viewer Obsidian Plugin",
         "month": "May",
         "year": "24",
         "quip": "View rendered LaTeX while typing",
-        "icon": ""
+        "icon": "",
+        "link": "https://github.com/butterman0423/latex-viewer"
     },
     {
         "title": "Trivia Game",
@@ -19,6 +21,7 @@
         "year": "24",
         "quip": "CLI Trivia Game written in C",
         "icon": "",
+        "link": "https://github.com/butterman0423/school-work/tree/master/CS392/Project",
         "school": true
     },
     {
@@ -27,6 +30,7 @@
         "year": "24",
         "quip": "Bash shell with additional commands",
         "icon": "",
+        "link": "https://github.com/butterman0423/school-work/tree/master/CS392/HW4",
         "school": true
     },
     {
@@ -35,6 +39,7 @@
         "year": "24",
         "quip": "Basic send/recieve messaging app",
         "icon": "",
+        "link": "https://github.com/butterman0423/school-work/tree/master/CS522",
         "school": true
     },
     {
@@ -43,6 +48,7 @@
         "year": "23",
         "quip": "Parser and Compiler for a custom CPU",
         "icon": "",
+        "link": "https://github.com/butterman0423/school-work/tree/master/CS382_WORK/Project2",
         "school": true
     },
     {
@@ -50,35 +56,40 @@
         "month": "Jul",
         "year": "23",
         "quip": "Avoid touching the edges of the screen",
-        "icon": ""
+        "icon": "",
+        "link": "https://butterman423.itch.io/through-the-gaps"
     },
     {
         "title": "Faulty Machines",
         "month": "23",
         "year": "Apr",
         "quip": "SGDC Game Jam V (Volatile) Submission",
-        "icon": ""
+        "icon": "",
+        "link": "https://butterman423.itch.io/faulty-machines"
     },
     {
         "title": "Endless Service",
         "month": "Feb",
         "year": "23",
         "quip": "SGDC Game Jam U (Undead) Submission\nWon \"Best Theme\"",
-        "icon": ""
+        "icon": "",
+        "link": "https://butterman423.itch.io/endless-service"
     },
     {
         "title": "Demoman Darry",
         "month": "Nov",
         "year": "22",
         "quip": "SGDC Game Jam T (Transport) Submission\nWon \"2nd Place\"",
-        "icon": ""
+        "icon": "",
+        "link": "https://butterman423.itch.io/demoman-darry"
     },
     {
         "title": "Dodgey!",
         "month": "Oct",
         "year": "22",
         "quip": "SGDC Game Jam S (Scale) Submission\nWon \"3rd Place\"",
-        "icon": ""
+        "icon": "",
+        "link": "https://butterman423.itch.io/dodgey"
     },
     {
         "title": "Music Recommender",
@@ -114,6 +125,7 @@
         "month": "Aug",
         "year": "20",
         "quip": "Recreated Yahtzee and Minesweeper",
-        "icon": ""
+        "icon": "",
+        "link": "https://www.roblox.com/users/40989185/profile#!/creations"
     }
 ]

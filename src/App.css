@@ -1,3 +1,7 @@
 .name-card {
   font-size: 5em;
 }
+
+.clear-text {
+  color: var(--bs-body-color)
+}
