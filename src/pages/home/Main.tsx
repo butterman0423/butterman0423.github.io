@@ -1,5 +1,8 @@
 import AboutMe from "./AboutMe";
 import GlanceItem from "./GlanceItem";
+import Projects from "./Projects";
+
+import projectArr from '../../projects.json'
 
 export default function Home() {
     return (
@@ -28,8 +31,9 @@ export default function Home() {
                         link="https://butterman423.itch.io/" />
                 </div>
 
-                <h1 id="work">All My Work</h1>
-                <div>Here is where the timeline would be. Pull from resume</div>
+                <div className="container">
+                    <Projects projects={projectArr} />
+                </div>
             </div>
         </main>
     );
