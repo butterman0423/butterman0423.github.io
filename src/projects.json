@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Inventory Buy/Sell App",
+        "month": "Jul",
+        "year": "24",
+        "quip": "Record and manage transactions in this Spreadsheet",
+        "icon": ""
+    },
+    {
+        "title": "LaTeX Viewer Obsidian Plugin",
+        "month": "May",
+        "year": "24",
+        "quip": "View rendered LaTeX while typing",
+        "icon": ""
+    },
+    {
+        "title": "Trivia Game",
+        "month": "Apr",
+        "year": "24",
+        "quip": "CLI Trivia Game written in C",
+        "icon": "",
+        "school": true
+    },
+    {
+        "title": "Custom Minishell",
+        "month": "Apr",
+        "year": "24",
+        "quip": "Bash shell with additional commands",
+        "icon": "",
+        "school": true
+    },
+    {
+        "title": "Chat App for Android",
+        "month": "Apr",
+        "year": "24",
+        "quip": "Basic send/recieve messaging app",
+        "icon": "",
+        "school": true
+    },
+    {
+        "title": "Custom CPU Language",
+        "month": "Dec",
+        "year": "23",
+        "quip": "Parser and Compiler for a custom CPU",
+        "icon": "",
+        "school": true
+    },
+    {
+        "title": "Through The Gaps",
+        "month": "Jul",
+        "year": "23",
+        "quip": "Avoid touching the edges of the screen",
+        "icon": ""
+    },
+    {
+        "title": "Faulty Machines",
+        "month": "23",
+        "year": "Apr",
+        "quip": "SGDC Game Jam V (Volatile) Submission",
+        "icon": ""
+    },
+    {
+        "title": "Endless Service",
+        "month": "Feb",
+        "year": "23",
+        "quip": "SGDC Game Jam U (Undead) Submission\nWon \"Best Theme\"",
+        "icon": ""
+    },
+    {
+        "title": "Demoman Darry",
+        "month": "Nov",
+        "year": "22",
+        "quip": "SGDC Game Jam T (Transport) Submission\nWon \"2nd Place\"",
+        "icon": ""
+    },
+    {
+        "title": "Dodgey!",
+        "month": "Oct",
+        "year": "22",
+        "quip": "SGDC Game Jam S (Scale) Submission\nWon \"3rd Place\"",
+        "icon": ""
+    },
+    {
+        "title": "Music Recommender",
+        "month": "Nov",
+        "year": "22",
+        "quip": "Small CLI to track locally stored artists and songs",
+        "icon": "",
+        "school": true
+    },
+    {
+        "title": "AmiAmi Web Shopper",
+        "month": "Mar",
+        "year": "22",
+        "quip": "Web Scrapper to add items to your AmiAmi cart",
+        "icon": ""
+    },
+    {
+        "title": "Image Fetcher Discord Bot",
+        "month": "Feb",
+        "year": "22",
+        "quip": "Search and send images to server members",
+        "icon": ""
+    },
+    {
+        "title": "Bounce!",
+        "month": "Jun",
+        "year": "21",
+        "quip": "Dodge lasers as a bouncy ball",
+        "icon": ""
+    },
+    {
+        "title": "Roblox Game Recreations",
+        "month": "Aug",
+        "year": "20",
+        "quip": "Recreated Yahtzee and Minesweeper",
+        "icon": ""
+    }
+]
