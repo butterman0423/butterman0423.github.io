@@ -23,7 +23,7 @@ export default function Home() {
                         quip="Record, Edit, and Track your Transactions in a Neat Spreadsheet." />
                     <GlanceItem
                         title="Latex Viewer Obsidian Plugin"
-                        quip="View Rendered LaTeX as you type in Obsidian" />
+                        quip="View Rendered LaTeX as you type in Obsidian." />
                     <GlanceItem
                         title="Game Projects"
                         quip="A Catalog of all my Released Games developed in Godot" />
