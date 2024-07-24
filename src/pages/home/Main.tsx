@@ -9,7 +9,10 @@ export default function Home() {
             </div>
 
             <div className="container-fluid">
-                <h1>At a Glance</h1>
+                <p className="text-center fs-2">
+                    I'm an aspiring software developer passionate about 
+                    developing applications for use and enjoyment.
+                </p>
                 <div className="row">
                     <GlanceItem 
                         title="Inventory Buy/Sell Web App"
