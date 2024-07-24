@@ -16,7 +16,7 @@ export default function Home() {
                     I'm an aspiring software developer passionate about 
                     developing applications for use and enjoyment.
                 </p>
-                <div className="row mx-5 mb-5">
+                <div className="row mx-5 mb-5" style={{ height: "33vh" }}>
                     <GlanceItem 
                         title="Inventory Buy/Sell Web App"
                         quip="Record, Edit, and Track your Transactions in a Neat Spreadsheet."
