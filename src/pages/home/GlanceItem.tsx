@@ -13,7 +13,7 @@ export default function GlanceItem({
             <h2 className="text-center">{ title }</h2>
             <div className="d-flex flex-column justify-content-center">
                 <p className="text-center">{ quip }</p>
-                <a href={link} className="btn btn-primary" onClick={ onSeeMore }>See More</a>
+                <a href={link} className="btn btn-primary align-self-center" onClick={ onSeeMore }>See More</a>
             </div>
         </div>
     );
