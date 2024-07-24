@@ -26,7 +26,7 @@ export default function Home() {
                         quip="View Rendered LaTeX as you type in Obsidian." />
                     <GlanceItem
                         title="Game Projects"
-                        quip="A Catalog of all my Released Games developed in Godot" />
+                        quip="A Catalog of all my Released Games developed in Godot." />
                 </div>
 
                 <h1 id="work">All My Work</h1>
