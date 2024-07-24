@@ -14,10 +14,13 @@ export default function AboutMe() {
     })
 
     return (
-        <div className="container">
-            <h1 className="text-center text-decoration-underline">Nathaniel Escaro</h1>
-            <div className="row row-cols-auto gx-2 justify-content-center">
-                { links }
+        <div className="position-relative container h-100">
+            <div className="position-absolute top-50 start-50 translate-middle">
+                <h1 className="text-center display-1">Nathaniel Escaro</h1>
+                <hr />
+                <div className="row row-cols-auto gx-2 justify-content-center">
+                    { links }
+                </div>
             </div>
         </div>
     );

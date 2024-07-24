@@ -7,16 +7,16 @@ import projectArr from '../../projects.json'
 export default function Home() {
     return (
         <main>
-            <div className="bg-body-secondary">
+            <div className="bg-body bg-gradient" style={{ height: "50vh" }}>
                 <AboutMe/>
             </div>
 
             <div className="container-fluid">
-                <p className="text-center fs-2">
+                <p className="text-center display-6 mt-3 mb-4">
                     I'm an aspiring software developer passionate about 
                     developing applications for use and enjoyment.
                 </p>
-                <div className="row mx-5">
+                <div className="row mx-5 mb-5">
                     <GlanceItem 
                         title="Inventory Buy/Sell Web App"
                         quip="Record, Edit, and Track your Transactions in a Neat Spreadsheet."
