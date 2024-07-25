@@ -5,3 +5,9 @@
 .clear-text {
   color: var(--bs-body-color)
 }
+
+@supports (-webkit-text-stroke: 1px #bfbfbf) {
+  .stroke {
+    -webkit-text-stroke: 0.5px #bfbfbf;
+  }
+}

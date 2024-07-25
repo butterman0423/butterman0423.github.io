@@ -3,25 +3,25 @@ type Options = {
     quip: string,
     link: string,
     img: string,
-    onSeeMore?: () => void
 }
 
 export default function GlanceItem({
-    title, quip, link, img, onSeeMore
+    title, quip, link, img
 }: Options) {
+    const imgStyle = {
+        backgroundImage: `url(${img})`,
+        backgroundSize: "cover"
+    }
+
     return (
         <div className="col">
-            <div className="h-100 pt-5 border border-dark-subtle rounded-4" style={{
-                backgroundImage: `url(${img})`,
-                backgroundSize: "cover",
-            }}>
-                <div style={{ filter: "none" }}>
-                    <h2 className="text-center">{ title }</h2>
-                    <div className="d-flex flex-column justify-content-center">
-                        <p className="text-center">{ quip }</p>
-                        <a href={link} className="btn btn-primary align-self-center" onClick={ onSeeMore }>See More</a>
+            <div className="h-100 border border-dark-subtle rounded-4" style={imgStyle}>
+                <a href={link} className="h-100 w-100 btn btn-outline-primary border-0">
+                    <div className="h-100 d-flex flex-column justify-content-center clear-text text-center">
+                        <h2 className="fw-bolder fs-1 stroke">{ title }</h2>
+                        <p className="fs-5">{ quip }</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );
