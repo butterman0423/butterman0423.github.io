@@ -20,15 +20,18 @@ export default function Home() {
                     <GlanceItem 
                         title="Inventory Buy/Sell Web App"
                         quip="Record, Edit, and Track your Transactions in a Neat Spreadsheet."
-                        link="https://github.com/butterman0423/catalog-webapp" />
+                        link="https://github.com/butterman0423/catalog-webapp"
+                        img="/thumbnail_inven_blur.png" />
                     <GlanceItem
                         title="Latex Viewer Obsidian Plugin"
                         quip="View Rendered LaTeX as you type in Obsidian."
-                        link="https://github.com/butterman0423/latex-viewer" />
+                        link="https://github.com/butterman0423/latex-viewer"
+                        img="/thumbnail_latex_blur.png" />
                     <GlanceItem
                         title="Game Projects"
                         quip="A Catalog of all my Released Games developed in Godot."
-                        link="https://butterman423.itch.io/" />
+                        link="https://butterman423.itch.io/"
+                        img="/thumbnail_itch_blur.png" />
                 </div>
 
                 <div className="container">
