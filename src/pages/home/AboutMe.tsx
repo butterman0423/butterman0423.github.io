@@ -1,14 +1,16 @@
 export default function AboutMe() {
     const links = [
-        { href: '/20240719_Resume.docx.pdf', text: 'Resume' },
-        { href: 'https://www.linkedin.com/in/nathaniel-andre-escaro-745099251', text: 'Linkdin' },
-        { href: 'https://github.com/butterman0423', text: 'Github' },
-        { href: 'https://butterman423.itch.io/', text: 'itch.io'}
+        { href: '/20240719_Resume.docx.pdf', icon: 'bi bi-filetype-pdf', type: 'danger' },
+        { href: 'https://www.linkedin.com/in/nathaniel-andre-escaro-745099251', icon: 'bi bi-linkedin', type: 'primary' },
+        { href: 'https://github.com/butterman0423', icon: 'bi bi-github', type: 'secondary' },
+        { href: 'https://butterman423.itch.io/', icon: 'bi bi-controller', type: 'success' }
     ]
-    .map(({ href, text }) => {
+    .map(({ href, icon, type }, idx) => {
         return (
-            <div className="col">
-                <a className="btn btn-outline-secondary" href={href}>{ text }</a>
+            <div key={idx} className="col">
+                <a className={`btn btn-outline-${type}`} href={href}>
+                    <i className={icon}></i>
+                </a>
             </div>
         );
     })
