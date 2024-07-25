@@ -14,7 +14,7 @@ export default function Home() {
             <div className="container-fluid">
                 <p className="text-center display-6 mt-3 mb-4">
                     I'm an aspiring software developer passionate about 
-                    developing applications for use and enjoyment.
+                    creating applications for use and enjoyment.
                 </p>
                 <div className="row mx-5 mb-5" style={{ height: "33vh" }}>
                     <GlanceItem 
